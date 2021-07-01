@@ -1,0 +1,38 @@
+.card {
+    width: 20rem;
+    margin: 2px;
+}
+.card:hover{
+    border: 1px solid rgb(209, 208, 208);
+    cursor: pointer;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1)
+}
+.card-body {
+    position: relative;
+    justify-content: space-between;
+    background-color: rgb(253, 249, 244);
+}
+.card-body:hover {
+    background-color: rgb(253, 247, 238);
+}
+#card-title {
+    text-align: center;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;  
+}
+#card-title::first-letter {
+    color: red;
+}
+.card-text {
+    color: rgb(143, 115, 115);
+    text-align: justify;
+}
+.card-footer  {
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer:first-child {
+    color: red!important;
+}

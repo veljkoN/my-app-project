@@ -1,0 +1,19 @@
+#item-done{
+    color:green;
+    font-size: 18px;
+}
+#item-undone {
+    color: rgb(180, 8, 8);
+}
+table {
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(253, 253, 251);
+}
+.title-status {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.row-done {
+    background-color: rgb(243, 241, 241);
+}

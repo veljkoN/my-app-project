@@ -1,0 +1,19 @@
+#add-post {
+    width: 100px;
+    position: absolute;
+    right: 2rem;
+    top: 4.5rem;
+    font-size:48px;
+    color:lightgreen;
+    cursor:pointer
+}
+#add-post:hover {
+    color:rgb(141, 230, 141);
+}
+ @media (min-width:300px) and (max-width:440px){
+    #add-post {
+        position: fixed;
+        right: -2.3rem;
+        
+    }
+}
